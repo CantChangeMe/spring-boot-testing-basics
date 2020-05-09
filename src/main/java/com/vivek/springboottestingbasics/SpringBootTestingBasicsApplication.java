@@ -1,4 +1,4 @@
-package com.vivek.spring.boot.testing.springboottestingbasics;
+package com.vivek.springboottestingbasics;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

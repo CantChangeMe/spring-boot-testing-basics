@@ -1,4 +1,4 @@
-package com.vivek.spring.boot.testing.springboottestingbasics;
+package com.vivek.springboottestingbasics;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
