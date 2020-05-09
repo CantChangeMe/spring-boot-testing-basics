@@ -14,7 +14,18 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/*
+ * SpringRunner is an alias for the SpringJUnit4ClassRunner. 
+
+To use this class, simply annotate a JUnit 4 based test class with @RunWith(SpringRunner.class).
+
+ */
+
 @RunWith(SpringRunner.class)
+/*
+ * Annotation that can be specified on a test class that runs Spring Boot based tests.
+ * Provides the following features over and above the regular Spring TestContextFramework: 
+ */
 @SpringBootTest
 public class TaxServiceTest2 {
 	
